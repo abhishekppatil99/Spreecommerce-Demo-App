@@ -1,0 +1,78 @@
+.cart-item > img {
+  float: left;
+  width: 20%;
+  margin-right: 30px;
+}
+.cart-item > .text > a {
+  display: block;
+  font-weight: bold;
+  font-size: 25px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+.cart-item > .text > span {
+  float: right;
+  margin-top: -30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.cart-item > .text > small {
+  display: block;
+  margin-bottom: 20px;
+}
+.cart-item > .text > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cart-item > .text > .footer {
+  position: absolute;
+  bottom: 12px;
+  right: 12px;
+}
+.cart-item > .text > .footer > .dropdown {
+  float: left;
+  margin-right: 10px;
+}
+
+.mini-cart {
+  color: #000;
+  display: block;
+  clear: left;
+  margin: 0 10px 5px 10px;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.mini-cart > img {
+  width: 50px;
+  float: left;
+  margin-right: 10px;
+}
+.mini-cart > .text {
+  width: 200px;
+}
+.mini-cart > .text > .title {
+  display: block;
+  font-weight: bold;
+  font-size: 20px;
+}
+.mini-cart > .text > .price {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.mini-cart > .text > button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: transparent;
+  border: none;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}

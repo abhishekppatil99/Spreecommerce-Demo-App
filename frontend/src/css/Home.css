@@ -1,0 +1,59 @@
+.carousel-box {
+  border-radius: 60px;
+  padding: 20px 5%;
+}
+
+.showcase-card {
+  --height: 300px;
+  height: var(--height);
+  width: 75%;
+  border-radius: 60px;
+  margin-top: 30px;
+  text-align: center;
+  display: block;
+  text-decoration: none !important;
+  overflow: hidden;
+  position: relative;
+}
+.showcase-card:nth-of-type(even) {
+  margin-left: 20%;
+}
+.showcase-card:nth-of-type(odd) {
+  margin-left: 5%;
+}
+.showcase-card:hover div {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.showcase-card div {
+  position: absolute;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.showcase-card span {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  height: var(--height);
+  line-height: var(--height);
+  font-size: 2.5cm;
+  font-weight: bolder;
+  color: rgba(255, 255, 255, 0.692);
+}
+.container {
+  margin-top: 20px;
+  padding-bottom: 20px;
+}

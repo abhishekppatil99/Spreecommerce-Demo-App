@@ -1,0 +1,115 @@
+.products {
+  height: fit-content;
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cat-name {
+  margin-top: 50px;
+  margin-left: 80px;
+  text-transform: uppercase;
+}
+
+.filters {
+  height: fit-content;
+  width: 250px;
+  margin-left: 50px;
+}
+
+.filters .filter {
+  margin-top: 20px;
+  display: flex;
+  height: 50px;
+  border-radius: 40px;
+  border: 3px solid #000;
+}
+
+.filters .filter .card-text {
+  margin-top: auto;
+  margin-bottom: 10px;
+  align-self: center;
+  width: fit-content;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-size: large;
+  color: black;
+}
+
+.filters .filter .filter-more {
+  margin-left: auto;
+  align-self: flex-end;
+}
+.flexbox {
+  display: flex;
+}
+
+.filter-button {
+  align-self: center !important;
+  margin: 5px;
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  border-width: 5px;
+  border-color: black;
+  width: 135px;
+  height: 50px;
+}
+
+.filters .card-header {
+  align-self: center;
+  background-color: white;
+}
+
+.filters .card {
+  border-width: 5px;
+  border-color: black;
+  border-radius: 50px;
+}
+.filter-button:hover {
+  margin: 5px;
+  background-color: black !important;
+  color: white !important;
+  border-radius: 50px;
+  border-width: 5px;
+  border-color: black !important;
+}
+
+.filter-head {
+  background-color: white;
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+
+.pag {
+  margin-left: 50% !important;
+}
+
+.loader-container {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: auto;
+  width: 60%;
+  justify-content: center;
+}
+
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #000000; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  align-self: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

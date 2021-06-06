@@ -1,0 +1,39 @@
+{
+  "name": "itw21d-api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix"
+  },
+  "author": "ITW21 Group D",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.24.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1",
+    "tap": "^15.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
+    "fastify": "^3.14.2",
+    "fastify-autoload": "^3.7.0",
+    "fastify-cli": "^2.9.1",
+    "fastify-cookie": "^5.3.0",
+    "fastify-cors": "^5.2.0",
+    "fastify-plugin": "^3.0.0",
+    "fastify-sensible": "^3.1.1",
+    "fastify-session": "^5.2.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.4"
+  }
+}

@@ -1,0 +1,28 @@
+.category-card {
+  border-radius: 40px;
+}
+.category-card .card-img {
+  border-radius: 40px;
+}
+
+.category-card .card-title {
+  padding-top: 18px;
+  text-align: center;
+  font-family: "Karla", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.category-card .overlay-box {
+  border-radius: 20px;
+  height: 60px;
+  background-color: rgba(53, 53, 53, 0.623);
+  bottom: 20px;
+  position: absolute;
+  width: calc(100% - 40px);
+}
+
+.btn {
+  width: 100%;
+  height: 100%;
+}

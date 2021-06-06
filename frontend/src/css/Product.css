@@ -1,0 +1,82 @@
+.product-details {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+}
+
+.product-details .carousel {
+  height: 500px;
+  width: 50%;
+  border-radius: 80px;
+  margin: 10px;
+}
+
+.carousel-inner {
+  height: 100%;
+  border-radius: 80px;
+}
+.carousel-item {
+  height: 100%;
+  border-radius: 80px;
+}
+.carousel-item .d-block {
+  height: 100%;
+  border-radius: 80px;
+}
+
+.cardy .btn {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  border-color: black;
+}
+
+.cardy.btn :hover {
+  height: 50px;
+  width: 200px;
+  background-color: white !important;
+  border-color: black !important;
+  color: black !important;
+}
+
+.cardy {
+  width: fit-content;
+  height: fit-content;
+  margin: 40px;
+}
+
+.counter {
+  display: flex;
+}
+
+.counter h3 {
+  margin: 10px;
+}
+
+.counter-btn {
+  margin: 10px;
+  width: fit-content !important;
+  height: fit-content !important;
+}
+
+.color-wrapper {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+}
+
+.size-wrapper {
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+}
+
+.color-wrapper .btn {
+  height: 30px;
+  width: 25px;
+  margin-left: 10px;
+  width: fit-content;
+  border-radius: 50%;
+  border-width: medium;
+  border-color: black;
+}

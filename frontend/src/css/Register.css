@@ -1,0 +1,7 @@
+#password_check {
+  padding: 0;
+}
+#password_check li {
+  display: inline;
+  padding-right: 15px;
+}
